@@ -5,6 +5,6 @@ php:
 services:
   - docker
 before_install:
-  - sudo apt-get install pdftk
+#  - sudo apt-get install pdftk
   - composer --version
-  - sudo pdftk
+  - pdftk
