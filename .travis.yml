@@ -3,4 +3,4 @@ language: node_js
 services:
   - docker
 before_install:
-  - echo "can i echo?"
+  - node ./main.js
