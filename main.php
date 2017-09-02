@@ -1,6 +1,6 @@
 <?php 
   echo "you on main.php";
-  require_once "\vendor\autoload.php";
+  require_once ".\vendor\autoload.php";
   use mikehaertl\shellcommand\Command;
 
   // Basic example
