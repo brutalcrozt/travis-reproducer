@@ -6,7 +6,6 @@ services:
   - docker
 before_install:
 #  - sudo apt-get install pdftk
-  - composer --version
   - composer require mikehaertl/php-shellcommand
   - ls
 #  - pdftk
