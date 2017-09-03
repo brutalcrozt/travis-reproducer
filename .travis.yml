@@ -7,8 +7,13 @@ services:
 before_install:
 #  - sudo apt-get install pdftk
 #  - pdftk
+  - php is_dir.php
 install:
   - composer install
+before_script:
+  - php is_dir.php
 script: 
   - ls
   - php main.php
+after_script:
+  - php is_dir.php
