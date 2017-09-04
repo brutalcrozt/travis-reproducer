@@ -11,9 +11,9 @@ before_install:
 install:
   - composer install
 before_script:
-  - php is_dir.php
-script: 
+  - php is_file.php
+script:
   - ls
   - php main.php
 after_script:
-  - php is_dir.php
+  - php is_file.php
