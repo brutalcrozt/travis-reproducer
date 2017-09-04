@@ -1,0 +1,1 @@
+as [here](https://travis-ci.org/brutalcrozt/travis-reproducer/builds/271779126) you should open file with this pattern `folder` `DIRECTORY_SEPARATOR` `FILE`. It was tested on php, i dont know yet on js.
