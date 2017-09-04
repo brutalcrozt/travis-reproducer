@@ -1,7 +1,7 @@
 <?php
   if (is_file('vendor'. DIRECTORY_SEPARATOR. 'autoload.php')) {
-    echo "vendor folder there". PHP_EOL;
+    echo "autoload.php was there". PHP_EOL;
   } else {
-    echo "no vendor folder". PHP_EOL;
+    echo "no autoload.php folder". PHP_EOL;
   }
 ?>

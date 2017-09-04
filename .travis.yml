@@ -13,5 +13,5 @@ install:
 before_script:
   - php is_file.php
 script:
-  - ls
+  - ls vendor
   - php main.php
