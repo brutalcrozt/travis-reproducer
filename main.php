@@ -1,6 +1,6 @@
-<?php 
+<?php
   echo "you on main.php". PHP_EOL;
-  require_once "/vendor/autoload.php";
+  require_once "vendor". DIRECTORY_SEPARATOR. "autoload.php";
   use mikehaertl\shellcommand\Command;
 
   // Basic example
